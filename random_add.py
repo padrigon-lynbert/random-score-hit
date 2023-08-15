@@ -1,4 +1,5 @@
 import random
+import time
 red = 0; blue = 0
 
 while True:
@@ -9,6 +10,7 @@ while True:
     if score_to == "Red":
         red += hit
         print(f"{score_to}: {red}")
+        time.sleep(.5)
         if red >= 50:
             print(f"\n{score_to}: {red}")
             print(f"{score_to}: {blue}")
@@ -16,6 +18,7 @@ while True:
     else:
         blue += hit
         print(f"{score_to}: {blue}")
+        time.sleep(.5)
         if blue >= 50:
             print(f"\n{score_to}: {red}")
             print(f"{score_to}: {blue}")
