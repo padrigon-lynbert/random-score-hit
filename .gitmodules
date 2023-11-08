@@ -1,0 +1,3 @@
+[submodule "MeanMedianMode"]
+	path = MeanMedianMode
+	url = https://github.com/padrigon-lynbert/MeanMedianMode.git
